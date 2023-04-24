@@ -1,0 +1,413 @@
+<mjml>
+  <mj-head>
+    <mj-title>Prevention Network Newsletter</mj-title>
+    <mj-font name="Poppins" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" />
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" />
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+    </mj-style>
+    <mj-attributes>
+
+      <mj-breakpoint width="450px" />
+
+      <mj-class name="header-line" align="center" border-color="#ffffff" border-width="2px" width="250px" />
+
+      <mj-class name="small-text" font-family="Montserrat, sans-serif" color="#ffffff" font-size="14px" />
+
+      <mj-class name="btn" font-family="Poppins, sans-serif" font-size="15px" font-weight="600" />
+
+      <mj-class name="btn-dark" color="#ffffff" background-color="#290857" />
+
+      <mj-class name="btn-light" color="#401c6b" background-color="#ffffff" />
+
+      <mj-class name="footer-line" align="center" border-color="#ffffff" border-width="2px" width="110px" />
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      .card {
+        background-color: #a378d9;
+        border-radius: 5px;
+        box-shadow: 5px 6px 4px 0px rgba(0, 0, 0, 25%);
+      }
+
+      .title h1,
+      h2 {
+        margin: 0 0 10px 0;
+        color: #ffffff;
+        font-size: 22px;
+        font-family: Poppins, sans-serif;
+      }
+
+      .title h3 {
+        color: #ffffff;
+        font-size: 22px;
+        font-family: Poppins, sans-serif;
+      }
+
+      .head-info p {
+        line-height: 1.5;
+      }
+
+      .content-title h2 {
+        color: #ffffff;
+        font-family: Poppins, sans-serif;
+        font-size: 22px;
+        border: 4px solid #ffffff;
+        padding: 5px
+      }
+
+      .content-title div {
+        width: 270px;
+      }
+
+      .content-image img {
+        border-radius: 30px;
+      }
+
+      .content-image div {
+        padding-right: 5px;
+      }
+
+      .content-text div {
+        padding: 10px;
+      }
+
+      .content-text h3,
+      p {
+        color: #ffffff;
+      }
+
+      .content-text p {
+        line-height: 1.5;
+        font-family: Montserrat, sans-serif;
+      }
+
+      .programs-title h2 {
+        font-size: 22px;
+        color: #290857;
+      }
+
+      .footer-text p {
+        font-family: Montserrat, sans-serif;
+        font-size: 12px;
+        color: #290857;
+        margin: 0px;
+        padding: 3px;
+      }
+
+      .footer-text a {
+        color: #a378d9;
+      }
+
+      .footer-links a{
+        font-family: Montserrat, sans-serif;
+        font-size: 12px;
+        color: #290857;
+      }
+
+      .footer-links p{
+        font-family: Montserrat, sans-serif;
+        font-size: 11px;
+        color: #290857;
+      }
+
+      .footer-image a{
+        text-decoration: none;
+        color: #290857;
+        font-size: 9px;
+        font-family: Montserrat, sans-serif;
+      }
+    </mj-style>
+
+  </mj-head>
+  <mj-body background-color="#ffffff">
+
+    <mj-raw>
+      <!-- Header -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+        <mj-image width="300px" src="logos/mpn_color.png" href="#">
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Annual Section -->
+    </mj-raw>
+    <mj-section>
+      <mj-column css-class="card" padding="30px" width="80%">
+
+        <mj-text css-class="title" padding="0" align="center">
+          <mj-raw>
+            <!-- Title for heading box -->
+          </mj-raw>
+          <h1>2023 Annual Report</h1>
+        </mj-text>
+
+        <mj-divider mj-class="header-line" padding="0 0 10px 0">
+        </mj-divider>
+
+        <mj-text css-class="head-info" mj-class="small-text" padding="5px">
+          <mj-raw>
+            <!-- Paragraph for heading box -->
+            <!-- Suggestion is short the better -->
+          </mj-raw>
+          <p>
+            2022 has been quite a busy year! Thanks to evidence-based prevention and harm reduction strategies across the state, we are beginning to see a decrease in overdose deaths from the last year. While there is still a lot of work to be done, this is an encouraging sign.
+          </p>
+          <p>
+            With that, overall, substance misuse continues to be a large concern with alcohol-related deaths rising, an increased positivity rate in workforce drug testing (bringing Michigan higher than the national average), and new legislation proposed on a regular basis that would increase access to substances in Michigan.
+          </p>
+          <p>
+            See our 2022 Annual report, detailing accomplishments over the last year, updates on the strategic plan, and goals for 2023. Prevention Network is proud to support you in your prevention activities!
+          </p>
+        </mj-text>
+
+        <mj-raw>
+          <!-- Report Button -->
+        </mj-raw>
+        <mj-button mj-class="btn-dark btn" href="#" target="blank" align="center">
+          View Full Report
+        </mj-button>
+
+      </mj-column>
+    </mj-section>
+
+    <mj-spacer height="50px" />
+
+
+    <mj-raw>
+      <!-- Content title Section -->
+    </mj-raw>
+    <mj-section background-color="#401c6b" padding-top="40px">
+      <mj-column>
+        <mj-text css-class="content-title" align="center">
+          <h2>2023 Key Highlights</h2>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Article 1 section -->
+    </mj-raw>
+    <mj-section background-color="#401c6b" padding="20px">
+      <mj-column vertical-align="middle">
+        <mj-image css-class="content-image" src="assets/assets-grants.png" href="#" target="blank">
+        </mj-image>
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-text css-class="content-text" align="center" padding="15px">
+          <mj-raw>
+            <!-- Article 1 title -->
+          </mj-raw>
+
+          <h3>Tincidunt Augue Interde</h3>
+
+          <mj-raw>
+            <!-- Article 1 paragrapgh -->
+          </mj-raw>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper quis lectus nulla at volutpat diam ut. Amet risus nullam eget felis eget nunc. Dignissim diam quis enim lobortis scelerisque fermentum. Id aliquet lectus proin nibh nisl condimentum id venenatis.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Article 2 section -->
+    </mj-raw>
+    <mj-section background-color="#401c6b" direction="rtl" padding="20px">
+      <mj-raw>
+        <!-- Article 2 image -->
+      </mj-raw>
+      <mj-column vertical-align="middle">
+        <mj-image css-class="content-image" src="assets/assets-team.png" href="#" target="blank">
+        </mj-image>
+      </mj-column>
+
+      <mj-raw>
+        <!-- Article 2 content -->
+      </mj-raw>
+      <mj-column vertical-align="middle">
+        <mj-text css-class="content-text" align="center" padding="15px">
+          <!-- Placeholder title text -->
+          <h3>Tincidunt Augue Interde</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper quis lectus nulla at volutpat diam ut. Amet risus nullam eget felis eget nunc. Dignissim diam quis enim lobortis scelerisque fermentum. Id aliquet lectus proin nibh nisl condimentum id venenatis.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Article 3 section -->
+    </mj-raw>
+    <mj-section background-color="#401c6b" padding="20px">
+      <mj-column vertical-align="middle">
+        <mj-image css-class="content-image" src="assets/assets-desk.png" href="#" target="blank">
+        </mj-image>
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-text css-class="content-text" align="center" padding="15px">
+          <mj-raw>
+            <!-- Article 3 title -->
+          </mj-raw>
+
+          <h3>Tincidunt Augue Interde</h3>
+
+          <mj-raw>
+            <!-- Article 3 paragrapgh -->
+          </mj-raw>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper quis lectus nulla at volutpat diam ut. Amet risus nullam eget felis eget nunc. Dignissim diam quis enim lobortis scelerisque fermentum. Id aliquet lectus proin nibh nisl condimentum id venenatis.</p>
+        </mj-text>
+      </mj-column>
+
+    </mj-section>
+
+    <mj-raw>
+      <!-- Button section -->
+    </mj-raw>
+    <mj-section background-color="#401c6b" padding-bottom="40px">
+      <mj-column>
+        <mj-raw>
+          <!-- Report Button -->
+        </mj-raw>
+        <mj-button mj-class="btn-light btn" href="#" target="blank" align="center">
+          View Full Report
+        </mj-button>
+
+      </mj-column>
+    </mj-section>
+
+    <mj-spacer height="50px" />
+
+    <mj-raw>
+      <!-- About Us -->
+    </mj-raw>
+
+    <mj-section>
+      <mj-column css-class="card" padding="30px" width="80%">
+
+        <mj-text css-class="title" align="center" padding="0">
+          <mj-raw>
+            <!-- Title for footer box -->
+          </mj-raw>
+          <h2>About Us</h2>
+        </mj-text>
+
+        <mj-divider mj-class="footer-line" padding="0 0 10px 0">
+        </mj-divider>
+
+        <mj-text css-class="head-info" mj-class="small-text" padding="5px">
+          <mj-raw>
+            <!-- Paragraph for heading box -->
+            <!-- Suggestion is short the better -->
+          </mj-raw>
+          <p>
+            Prevention Network is a statewide not-for-profit that aims to cultivate healthy communities across Michigan by providing substance misuse prevention resources, technical assistance, and support to all 83 Michigan counties. We strive to bridge the gap between research and practice for the enhanced effectiveness of local prevention efforts.
+          </p>
+          <p>
+            We are comprehensive in our makeup, embracing a variety of viewpoints and methods of approach in dealing with substance misuse prevention and related problems. We serve a diverse set of community groups, professional and volunteer, whose autonomy we respect. We provide support through which their effectiveness can be increased and common goals can be identified and achieved.
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Programs section -->
+    </mj-raw>
+
+    <mj-raw>
+      <!-- Programs title -->
+    </mj-raw>
+    <mj-section>
+      <mj-column>
+        <mj-text css-class="programs-title" align="center">
+          <h2>Our Current Programs</h2>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-raw>
+      <!-- Programs images section row 1 -->
+    </mj-raw>
+
+    <mj-section>
+
+      <mj-column vertical-align="middle">
+        <mj-image width="100px" border-radius="5px" src="logos/PDO_Logo_Color.jpg" />
+      </mj-column>
+
+      <mj-column vertical-align="middle">
+        <mj-image width="100px" border-radius="5px" src="logos/MIHEN_small.jpg" />
+      </mj-column>
+
+      <mj-column vertical-align="middle">
+        <mj-image width="100px" border-radius="5px" src="logos/MCRUDlogo.jpg" />
+      </mj-column>
+
+      <mj-column vertical-align="middle">
+        <mj-image width="100px" border-radius="5px" src="logos/PAMFinalLogo.png" />
+      </mj-column>
+
+    </mj-section>
+
+    <mj-raw>
+      <!-- Programs images section row 2 -->
+    </mj-raw>
+
+    <mj-section>
+
+      <mj-column vertical-align="middle">
+        <mj-image width="100px" border-radius="5px" src="logos/assets-mp7.png" />
+      </mj-column>
+
+      <mj-column vertical-align="middle">
+        <mj-image width="100px" border-radius="5px" src="logos/assets-mp5.png" />
+      </mj-column>
+
+      <mj-column vertical-align="middle">
+        <mj-image width="100px" border-radius="5px" src="logos/assets-mp6.png" />
+      </mj-column>
+
+      <mj-column vertical-align="middle">
+        <mj-image width="100px" border-radius="5px" src="logos/assets-mp1.jpg" />
+      </mj-column>
+
+    </mj-section>
+
+    <mj-raw>
+      <!-- Footer -->
+    </mj-raw>
+    <mj-section>
+
+      <mj-column>
+
+        <mj-image width="50px" border-radius="5px" src="logos/mpn_smallColor.jpg" />
+
+        <mj-text css-class="footer-text" align="center">
+          <p>Prevention Network</p>
+          <p>3815 W. St. Joseph</p>
+          <p>Suite A500, Lansing, MI 48917</p>
+          <br>
+          <a href="#">Unsubscribe</a> | <a href="#">louiseh@preventionnetwork.org</a>
+          <br>
+        </mj-text>
+
+        <mj-text css-class="footer-links" align="center">
+        <a href="#">Constant Contact Data Notice</a>
+        <br>
+        <p>Sent by info@preventionnetwork.org in collaboration with</p>
+        </mj-text>
+
+        <mj-image width="130px" src="logos/constantC.png" />
+        
+        <mj-text css-class="footer-image" align="center">
+        <a href="#">Try email marketing for free today!</a>
+        </mj-text>
+      </mj-column>
+
+    </mj-section>
+
+  </mj-body>
+</mjml>
